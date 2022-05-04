@@ -12,6 +12,13 @@
             "program": "${workspaceFolder}/1-v.exe",
             "cwd": "${workspaceFolder}",
             "stopAtEntry": false,
+            "setupCommands": [
+                {
+                    "text": "-enable-pretty-printing",
+                    "description": "enable pretty printing",
+                    "ignoreFailures": false
+                }
+            ],
             "linux": {
                 "MIMode": "gdb",
                 "miDebuggerPath": "/usr/bin/gdb"
