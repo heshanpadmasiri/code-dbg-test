@@ -1,7 +1,7 @@
 test: 1-v.exe 2-v.exe 3-v.exe
 
 %.exe: %.bc %._init.bc
-	clang-12 -O2 -g -o $@ $^ balrt.a
+	clang-12 -O0 -g -o $@ $^ balrt.a
 
 %.bc: %.ll
 	llvm-link-12 -o $@ $< balrt_inline.bc
