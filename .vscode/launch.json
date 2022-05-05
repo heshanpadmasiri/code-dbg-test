@@ -9,7 +9,7 @@
             "name": "GDB test",
             "type": "cppdbg", // GDB
             "request": "launch",
-            "program": "${workspaceFolder}/1-v.exe",
+            "program": "${workspaceFolder}/${fileBasenameNoExtension}.exe",
             "cwd": "${workspaceFolder}",
             "stopAtEntry": false,
             "setupCommands": [
