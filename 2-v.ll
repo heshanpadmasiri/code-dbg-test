@@ -13,7 +13,7 @@ define void @_B04rootmain() !dbg !5 {
   %2 = alloca i8 addrspace(1)*, !dbg !7
   %3 = alloca i64, !dbg !7
   %4 = alloca i8 addrspace(1)*, !dbg !7
-  call void @llvm.dbg.declare(metadata i64* %a, metadata !10, metadata !9), !dbg !11
+  call void @llvm.dbg.declare(metadata i64* %a, metadata !10, metadata !8), !dbg !11
   %5 = alloca i8, !dbg !12
   %6 = load i8*, i8** @_bal_stack_guard, !dbg !12
   %7 = icmp ult i8* %5, %6, !dbg !12
@@ -70,9 +70,9 @@ define void @_B04rootmain() !dbg !5 {
 !5 = distinct !DISubprogram(name:"main", linkageName:"_B04rootmain", scope: !1, file: !1, line: 2, type: !3, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !2, retainedNodes: !6)
 !6 = !{}
 !7 = !DILocation(line: 2, column: 16, scope: !5)
-!8 = !DIBasicType(name:"var", size: 64, encoding: DW_ATE_unsigned)
-!9 = !DIExpression()
-!10 = !DILocalVariable(name:"a", scope: !5, file: !1, line: 3, type: !8)
+!8 = !DIExpression()
+!9 = !DIBasicType(name:"int", size: 64, encoding: DW_ATE_signed)
+!10 = !DILocalVariable(name:"a", scope: !5, file: !1, line: 3, type: !9)
 !11 = !DILocation(line: 3, column: 8, scope: !5)
 !12 = !DILocation(line: 2, column: 16, scope: !5)
 !13 = !DILocation(line: 3, column: 10, scope: !5)
