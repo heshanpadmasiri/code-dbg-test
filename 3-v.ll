@@ -87,4 +87,5 @@ define void @_B04rootmain() !dbg !5 {
 !20 = !DILocation(line: 6, column: 4, scope: !5)
 !21 = !DILocation(line: 7, column: 0, scope: !5)
 !22 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !23, size: 64)
-!23 = !DIBasicType(name: "int", size: 64, encoding: DW_ATE_signed)
+!23 = !DIBasicType(name: "char", size: 8, encoding: DW_ATE_signed_char)
+!24 = !DIBasicType(name: "long", size: 64, encoding: DW_ATE_signed)
