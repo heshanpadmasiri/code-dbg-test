@@ -1,4 +1,4 @@
-test: 1-v.exe 2-v.exe 3-v.exe 4-v.exe
+test: 1-v.exe 2-v.exe 3-v.exe 4-v.exe 5-v.exe 6-v.exe 7-v.exe 8-v.exe
 
 %.exe: %.bc %._init.bc
 	clang-12 -O0 -g -o $@ $^ balrt.a
