@@ -95,7 +95,7 @@ define void @_B04rootmain() !dbg !5 {
 !6 = !{}
 !7 = !DILocation(line: 2, column: 16, scope: !5)
 !8 = !DIExpression()
-!9 = distinct !DILexicalBlock(scope: !5, file: !1, line: 2)
+!9 = distinct !DILexicalBlock(scope: !5, file: !1, line: 2, column: 23)
 !10 = !DIBasicType(name:"char", size: 8, encoding: DW_ATE_signed_char)
 !11 = !DIDerivedType(tag: DW_TAG_pointer_type, baseType: !10, size: 64, dwarfAddressSpace: 1)
 !12 = !DIDerivedType(tag: DW_TAG_typedef, name:"TaggedPtr", scope: !1, file: !1, baseType: !11)
@@ -105,7 +105,7 @@ define void @_B04rootmain() !dbg !5 {
 !16 = !DILocation(line: 5, column: 14, scope: !9)
 !17 = !DILocalVariable(name:"c", scope: !9, file: !1, line: 7, type: !12)
 !18 = !DILocation(line: 7, column: 14, scope: !9)
-!19 = !DILocation(line: 2, column: 16, scope: !9)
+!19 = !DILocation(line: 2, column: 16, scope: !5)
 !20 = !DILocation(line: 3, column: 16, scope: !9)
 !21 = !DILocation(line: 4, column: 15, scope: !9)
 !22 = !DILocation(line: 4, column: 4, scope: !9)
