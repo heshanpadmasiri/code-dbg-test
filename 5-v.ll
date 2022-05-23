@@ -162,7 +162,7 @@ define void @_B04rootmain() !dbg !5 {
 !16 = !DIBasicType(name:"int", size: 64, encoding: DW_ATE_signed)
 !17 = !DILocalVariable(name:"c", scope: !15, file: !1, line: 9, type: !16)
 !18 = !DILocation(line: 9, column: 12, scope: !15)
-!19 = distinct !DILexicalBlock(scope: !9, file: !1, line: 12, column: 14)
+!19 = distinct !DILexicalBlock(scope: !15, file: !1, line: 12, column: 14)
 !20 = !DILocalVariable(name:"b", scope: !19, file: !1, line: 12, type: !12)
 !21 = !DILocation(line: 12, column: 14, scope: !19)
 !22 = !DILocation(line: 2, column: 16, scope: !5)
