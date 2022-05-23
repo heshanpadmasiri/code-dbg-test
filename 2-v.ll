@@ -71,7 +71,7 @@ define void @_B04rootmain() !dbg !5 {
 !6 = !{}
 !7 = !DILocation(line: 2, column: 16, scope: !5)
 !8 = !DIExpression()
-!9 = distinct !DILexicalBlock(scope: !5, file: !1, line: 2, column: 23)
+!9 = distinct !DILexicalBlock(scope: !5, file: !1, line: 3, column: 8)
 !10 = !DIBasicType(name:"int", size: 64, encoding: DW_ATE_signed)
 !11 = !DILocalVariable(name:"a", scope: !9, file: !1, line: 3, type: !10)
 !12 = !DILocation(line: 3, column: 8, scope: !9)

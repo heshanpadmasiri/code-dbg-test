@@ -93,7 +93,7 @@ define void @_B04rootmain() !dbg !5 {
 !6 = !{}
 !7 = !DILocation(line: 2, column: 16, scope: !5)
 !8 = !DIExpression()
-!9 = distinct !DILexicalBlock(scope: !5, file: !1, line: 2, column: 23)
+!9 = distinct !DILexicalBlock(scope: !5, file: !1, line: 3, column: 10)
 !10 = !DIBasicType(name:"float", size: 64, encoding: DW_ATE_float)
 !11 = !DILocalVariable(name:"f", scope: !9, file: !1, line: 3, type: !10)
 !12 = !DILocation(line: 3, column: 10, scope: !9)

@@ -1,0 +1,19 @@
+import ballerina/io;
+public function main() {
+    decimal a = 1;
+    io:println(a); // @output 1
+    decimal b = -1;
+    io:println(b); // @output -1
+    decimal d1 = -9.999999999999999999999999999999999E6144d;
+    decimal D1 = 9.999999999999999999999999999999999E6144d;
+    decimal d2 = -0.000000000000000000000000000000001E6144d;
+    decimal D2 = 0.000000000000000000000000000000001E6144d;
+    decimal d3 = -9.999999999999999999999999999999999E-6144d;
+    decimal D3 = 9.999999999999999999999999999999999E-6144d;
+    io:println(d1); // @output -9.999999999999999999999999999999999E+6144
+    io:println(D1); // @output 9.999999999999999999999999999999999E+6144
+    io:println(d2); // @output -1E+6111
+    io:println(D2); // @output 1E+6111
+    io:println(d3); // @output -1.000000000000000000000000000000000E-6143
+    io:println(D3); // @output 1.000000000000000000000000000000000E-6143
+}
